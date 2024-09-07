@@ -65,31 +65,24 @@ footer {
     bottom: 0;
 }
 
-/*for mobile devices */
 @media (max-width: 600px) {
     body {
-        height: auto;
+        height: auto; /* Dostosowanie wysokości do treści */
     }
 
     .container {
-        width: 90%; 
-        padding: 15px;
-        height: auto; 
-        box-shadow: none; 
+        width: 100%; /* Kontener dopasowuje się do szerokości ekranu */
+        max-width: 90%; /* Maksymalnie 90% szerokości na mobilnych */
+        height: auto; /* Automatyczna wysokość na mobilnych */
     }
 
-    input[type="text"], button {
-        width: 100%; 
-        margin-bottom: 10px; 
+    input[type="text"] {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 100%; /* Pełna szerokość na urządzeniach mobilnych */
     }
 
-    h1 {
-        font-size: 1.5rem;
-        text-align: center;
-    }
-
-    footer {
-        font-size: 0.8rem; 
-        padding: 5px;
+    button {
+        width: 100%; /* Pełna szerokość przycisku na mobilnych */
     }
 }
