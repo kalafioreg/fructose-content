@@ -64,3 +64,32 @@ footer {
     position: fixed;
     bottom: 0;
 }
+
+/*for mobile devices */
+@media (max-width: 600px) {
+    body {
+        height: auto;
+    }
+
+    .container {
+        width: 90%; 
+        padding: 15px;
+        height: auto; 
+        box-shadow: none; 
+    }
+
+    input[type="text"], button {
+        width: 100%; 
+        margin-bottom: 10px; 
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    footer {
+        font-size: 0.8rem; 
+        padding: 5px;
+    }
+}
