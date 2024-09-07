@@ -64,3 +64,9 @@ footer {
     position: fixed;
     bottom: 0;
 }
+
+@media (max-width: 600px) {
+    .container {
+        min-height: 300px; 
+    }
+}
