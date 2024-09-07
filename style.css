@@ -67,22 +67,12 @@ footer {
 
 @media (max-width: 600px) {
     body {
-        height: auto; /* Dostosowanie wysokości do treści */
+        height: 100%; 
     }
 
     .container {
         width: 100%; /* Kontener dopasowuje się do szerokości ekranu */
         max-width: 90%; /* Maksymalnie 90% szerokości na mobilnych */
         height: auto; /* Automatyczna wysokość na mobilnych */
-    }
-
-    input[type="text"] {
-        margin-right: 0;
-        margin-bottom: 10px;
-        width: 100%; /* Pełna szerokość na urządzeniach mobilnych */
-    }
-
-    button {
-        width: 100%; /* Pełna szerokość przycisku na mobilnych */
     }
 }
