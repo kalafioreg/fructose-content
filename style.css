@@ -67,6 +67,6 @@ footer {
 
 @media (max-width: 600px) {
     .container {
-        min-height: 270px; 
+        min-height: 300px; 
     }
 }
