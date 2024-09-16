@@ -9,16 +9,21 @@
 </head>
 <body>
     <div class="container">
-        <h1>zawartość fruktozy w owocach (w 100g)</h1>
-        <h4>ⓘ użyj liczby pojedynczej, np. zamiast "gruszki" ➔ "gruszka"</h4>
+        <h1 id="mainTitle">zawartość fruktozy w owocach (w 100g)</h1>
+        <h4 id="subTitle">ⓘ użyj liczby pojedynczej, np. zamiast "gruszki" ➔ "gruszka"</h4>
         <input type="text" id="fruitInput" placeholder="nazwa owocu">
-        <button onclick="checkFructose()">sprawdź</button>
+        <button id="checkButton" onclick="checkFructose()">sprawdź</button>
         <p id="result"></p>
     </div>
     <footer>
-        <p>by kalafioreg</p>
+        <div class="flag-container">
+            <img src="pflag.png" alt="pl" class="flag" id="flagPl">
+            <img src="eflag.png" alt="en" class="flag" id="flagEn">
+        </div>
+        <p class="author">by kalafioreg</p>
     </footer>
     <script src="script.js"></script>
 </body>
 </html>
+
  
