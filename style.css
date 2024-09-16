@@ -6,7 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url('owoce.jpg'); 
+    background-image: url('fruit.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -52,18 +52,34 @@ button:hover {
 p {
     font-weight: bold;
 }
-.creator
-{
-    text-align: right;
-}
 footer {
-    text-align: right;
     background: #0f151c;
     color: white;
     width: 100%; 
     position: fixed;
     bottom: 0;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px;
 }
+
+.flag {
+    height: 30px;
+    width: 50px;
+    padding: 4px;
+    border-radius: 10px;
+}
+.selected-flag {
+    border: 3px solid #007BFF;
+    border-radius: 10px; 
+}
+
+.author {
+    margin: 0; 
+    text-align: right;
+}
+
 
 @media (max-width: 600px) {
     .container {
